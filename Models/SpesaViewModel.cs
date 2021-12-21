@@ -9,9 +9,9 @@ namespace ProgettoSpesa.Models
     public class SpesaViewModel
     {
      [Required]
-        public long id { get; set; }
-        public string prodotto { get; set; }
-        public int quantita { get; set; }
-        public decimal prezzo { get; set; }
+        public long Id { get; set; }
+        public string Prodotto { get; set; }
+        public int Quantita { get; set; }
+        public decimal Prezzo { get; set; }
     }
 }

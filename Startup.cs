@@ -55,7 +55,7 @@ namespace ProgettoSpesa
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Spesa}/{action=Index}/{id?}");
             });
         }
     }
